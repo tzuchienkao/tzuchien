@@ -1,7 +1,7 @@
 (function($){
     $(document).ready(function(){
         $.ajax({
-            'url' : '../tzuchien/data/demo.json', 
+            'url' : '../../tzuchien/data/demo.json', 
             'dataType' : 'json',
             'async': false,
             success : function(content){
