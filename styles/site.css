@@ -177,3 +177,25 @@ section {
 .btn_fun_close:before, .btn_fun_close:after {
   background: #40c297;
 }
+@media (max-width: 641px) and (min-width: 320px) {
+  header {
+    width: 30%;
+  }
+  section {
+    width: 75%;
+  }
+  .namecard .img_box {
+    width: 80px;
+    height: 80px;
+  }
+  .list_box li {
+    width: 50%;
+    line-height: 1.5;
+    padding: 15px;
+    flex: 0 0 50%;
+  }
+  .img_group li {
+    width: 50%;
+    flex: 0 0 50%;
+  }
+}
