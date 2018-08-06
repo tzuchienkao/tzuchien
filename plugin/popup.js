@@ -1,0 +1,87 @@
+(function($){
+
+    var js_url = document.querySelectorAll( 'script[src]' );
+    var this_url = js_url[ js_url.length - 1 ].src;
+    var split_url = this_url.split( '/' );
+    var this_filename = split_url[split_url.length - 1];
+    var _root = this_url.split(this_filename)[0];
+    $.fn.extend({
+        /* 觸發產生彈窗 */
+        /* popup_box(觸發按鈕, 彈窗內容){
+            觸發按鈕(require) : element
+            彈窗內容(require) : obj
+        } */
+        popup_box : function(option){
+            $(this).on('click', function(){
+                $('.modal_box').remove();
+                $('body').append('<div class="modal_box"></div>');
+                
+                $.ajax({
+                    'url' : _root + 'popup.html', 
+                    'dataType' : 'html', 
+                    'async' : false, 
+                    success: function(conent){
+                        $('body').addClass('modal');
+                        $('.modal_box').append(conent);
+                        popup_inner(option);
+                        var close = $('.btn_fun_close');
+                        close_popup_box(close, option);
+                    }
+                })
+            });
+        }/* //觸發產生彈窗 */
+    });
+    /* 彈出視窗 */
+    /* popup_inner(標題, 內容, 關閉(叉叉)按鈕, 按鈕群_按鈕1, 按鈕群_按鈕2){
+        標題(require) : text (default:'對話視窗')
+        內容(option) : html
+        關閉按鈕(option) : boolean (default:true)
+        按鈕群_1(option) : html
+        按鈕群_2(option) : html
+    } */
+    function popup_inner(option){
+        var title = option.title == '' || undefined ? '對話視窗' : option.title;
+        var content = option.content == '' || undefined ? null : option.content;
+        var btn_close = option.btn_close;
+        var btn_group_1 = option.btn_group_1 == '' || undefined ? '' : option.btn_group_1;
+        var btn_group_2 = option.btn_group2 == '' || undefined ? '' : option.btn_group_2;
+        $('.popup_header').html(title);
+        $('.popup_content').html(content);
+        $('.popup_btn_1').html(btn_group_1);
+        $('.popup_btn_2').html(btn_group_2);
+        if(btn_close === true || btn_close === ''){
+            $('.popup .btn_fun_close').show();
+            $('.popup .btn_fun_close').siblings('.box_submit').toggleClass('typo_align_c');
+        }else {
+            $('.popup .btn_fun_close').hide();
+        }
+    }/* //彈出視窗 */
+
+    /* 關閉彈出視窗 */
+    /* close_popup_box(關閉(叉叉)按鈕, 點遮罩會關閉彈出視窗){
+        關閉按鈕 : 如果popup_inner給的是 true, 就會進來執行
+        遮罩(option) : boolean (default:true)
+    } */
+    function close_popup_box(close, option){
+        var _target =  $('.popup');
+        var modal_ctrl = option.modal_ctrl;
+        // 點遮罩會關閉彈出視窗
+        if(modal_ctrl === true || modal_ctrl === ''){
+            $(window).on('click', function(e){
+                if(e.target == _target[0]){
+                    $('.popup').fadeOut(300, function(){
+                        $('.modal_box').remove();
+                        $('body').removeClass('modal');
+                    });
+                };
+            })
+        }//點遮罩會關閉彈出視窗
+        close.on('click', function(){
+            $('.popup').fadeOut(300, function(){
+                $('.modal_box').remove();
+                $('body').removeClass('modal');
+            });
+        });
+    }/* //關閉彈出視窗 */
+
+})(jQuery)

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <title>04-03-NestRoute</title>
+  <link rel="stylesheet"
+        href="../styles/normalize.css">
+  <link rel="stylesheet"
+        href="../styles/layout.css">
+  <link rel="stylesheet"
+        href="../styles/site.css">
+</head>
+
+<body>
+  <div id="app"
+       v-cloak>
+    <header>
+      <router-link to="/course/html">html</router-link>
+      <router-link to="/course/css">css</router-link>
+      <router-link to="/course/javascript">javascript</router-link>
+    </header>
+    <transition name="fade"
+                mode="out-in"
+                appear>
+      <router-view></router-view>
+    </transition>
+  </div>
+  <script src="../libs/jquery.min.js"></script>
+  <script src="../libs/vue.js"></script>
+  <script src="../libs/vue-router.js"></script>
+  <script>
+    (function () {
+
+      let course = {
+        template: `
+          <div class="page">
+            <h1>課程組件</h1>
+          </div>
+        `
+      }
+
+      let html = {
+        template: `
+          <p>html</p>
+        `
+      }
+
+      let css = {
+        template: `
+          <p>css</p>
+        `
+      }
+
+      let javascript = {
+        template: `
+          <p>javascript</p>
+        `
+      }
+
+      let router = new VueRouter({
+        routes: [
+          {
+            name: 'course',
+            path: '/course',
+            component: course
+          },
+          { path: '*', redirect: '/course' }
+        ]
+      })
+
+      new Vue({
+        el: '#app',
+        router: router
+      })
+    })()
+  </script>
+</body>
+
+</html>

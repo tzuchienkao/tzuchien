@@ -1,0 +1,26 @@
+{
+    "wlj" : {
+        "title" : "<h6>1828集團 - 王老吉涼水鋪工程部 前端工程師</h6><p>以 OOCSS 的設計模式定義網站 CSS style 規範；維護與改版公司內部官網及開發1828涼水鋪APP</p>", 
+        "content" : "<ul><li>網站開發以 tableless grid layout 為概念進行布局，透過 Emmet 及 LESS + CSS (OOCSS ) 編寫結構化的程式碼，不依賴 Framework 進行 RWD 客製化，開發時能夠處理各瀏覽器兼容性，並符合多裝置尺寸建置，使用 jQuery / CSS3 呈現網頁資訊及動態效果。</li><li>與後端以 AJAX 方法串接 json 格式資料，並遵循 RESTful API 規範，使用 Promise 物件建立非同步運作。</li><li>團隊使用 trello 設立目標，建立階段性任務，藉此可了解各部門同仁彼此的進度，一同開發完成專案；並仰賴 git 圖形化介面工具做檔案版本控制。</li></ul>"
+    }, 
+    "wl": {
+        "title" : "<h6>台灣角川 - 窩客島(WalkerLand)</h6><p>每月進行橫幅廣告設計、雜誌頁面設計，以及設計、開發、維護業務部門的活動網站；節日的電子報網站設計、公司內部官網的設計、開發、維護以及改版</p>", 
+        "content" : "<ul><li>網頁使用 Adobe Photoshop 製作視覺設計及自製 CSS sprite，採用 tableless grid layout 為概念布局，並以結構化的程式碼，有效增加網頁可讀性與維護性、縮短開發時程、助於 SEO。</li><li>電子報透過 Adobe photoshop 進行圖片切片，頁面布局以 table 排版，並以 inline-CSS 編寫樣式，有助於瀏覽器的容錯率；電子報網站開發使用 jQuery / CSS3 呈現網頁資訊及動態效果。</li></ul><ul class='img_group'><li><img src='../images/wl/event_esun_000.jpg' /></li><li><img src='../images/wl/edm_201712.jpg' /></li><li><img src='../images/wl/sitewl_article_002.jpg' /></li><li><img src='../images/wl/sitewl_article_003.jpg' /></li></ul>"
+        }, 
+    "yd": {
+        "title" : "<h6>毅達創意</h6><p>設計該專案的網頁過場動畫，與業務、設計、後端人員一同進行討論及網站開發</p>", 
+        "content" : "<ul><li>將設計的PSD檔使用 Adobe Photoshop 切片，並設計網頁過場動畫，開發使用 Bootstrap 呈現網頁資訊及動態效果，並運用 jQuery Plugin 製作一頁式網站。</li></ul><ul class='img_group'><li><img src='../images/yd/001-ydReading.jpg' /></li><li><img src='../images/yd/002-ydBus.jpg' /></li><li><img src='../images/yd/003-ydShinny.jpg' /></li><li><img src='../images/yd/004-ydTstar.jpg' /></li><li><img src='../images/yd/001-ydReading_m.jpg' /><li><img src='../images/yd/002-ydBus_m.jpg' /></li><li><img src='../images/yd/003-ydShinny_m.jpg' /></li><li><img src='../images/yd/004-ydTstar_m.jpg' /></li></ul>"
+        }, 
+    "yw": {
+        "title" : "<h6>嚮網科技（優仕網／愛逛街）</h6><p>開發、維護、改版公司內部官網，每月進行橫幅廣告設計及業務部門的活動網站設計、開發、維護</p>", 
+        "content" : "<ul><li>使用 Adobe Photoshop 製作視覺設計，頁面布局以 tableless grid layout 為概念排版，不依賴 Framework 進行 RWD 客製化，開發符合各裝置尺寸的網站建置，並增加網頁可讀性與維護性，亦能縮短開發時程，更助於網頁 SEO。</li><li>團隊使用 google 雲端文件設立目標，建立階段性任務，藉由甘特圖可了解該專案相關同仁的進度；檔案藉由 SVN 圖形化介面工具版本控制。</li></ul><ul class='img_group'><li><img src='../images/yw/iguang_vedio.gif' /></li><li><img src='../images/yw/iguang_0_2015.jpg' /></li><li><img src='../images/yw/iguang_1_2015.jpg' /></li><li><img src='../images/yw/iguang_2_2015.jpg' /></li><li><img src='../images/yw/iguang_4_2015.jpg' /></li><li><img src='../images/yw/iguang_5_2015.jpg' /></li><li><img src='../images/yw/iguang_6_2015.jpg' /></li><li><img src='../images/yw/flog_logo.jpg' /></li><li><img src='../images/yw/event_xmas.jpg' /></li><li><img src='../images/yw/event_pizzahut_4.jpg' /></li><li><img src='../images/yw/event_taobao_2.jpg' /></li><li><img src='../images/yw/event_roodo.jpg' /></li><li><img src='../images/yw/event_k8_m_4.jpg' /></li><li><img src='../images/yw/event_newyear_3.jpg' /></li><li><img src='../images/yw/event_taobao_m.jpg' /></li><li></li></ul>"
+    }, 
+    "popo": {
+        "title" : "<h6>POPO（城邦控股集團）</h6><p>開發、改版公司內部官網，每月進行橫幅廣告設計、電子書封設計及活動網站設計、開發</p>", 
+        "content" : "<ul><li>使用 Adobe Photoshop 製作視覺設計，頁面布局以 tableless grid layout 為概念排版，不依賴 Framework 進行開發，開發時能夠處理各瀏覽器兼容性，並符合多裝置尺寸建置，並增加網頁可讀性與維護性，亦能縮短開發時程。</li></ul><ul class='img_group'><li><img src='../images/popo/qidian_0_2014.jpg' /></li><li><img src='../images/popo/qidian_1_2014.jpg' /></li><li><img src='../images/popo/qidian_2_2014.jpg' /></li><li><img src='../images/popo/qidian_3_2014.jpg' /></li><li><img src='../images/popo/qidian_4_2014.jpg' /></li><li><img src='../images/popo/qidian_5_2014.jpg' /></li><li><img src='../images/popo/qidian_6_2014.jpg' /></li><li><img src='../images/popo/qidian_7_2014.jpg' /></li><li><img src='../images/popo/qidian_8_2014.jpg' /></li><li><img src='../images/popo/qidian_9_2014.jpg' /></li><li><img src='../images/popo/qidian_10_2014.jpg' /></li><li><img src='../images/popo/qidian_11_2014.jpg' /></li><li><img src='../images/popo/qidian_12_2014.jpg' /></li><li><img src='../images/popo/140_postoreEP.jpg' /></li><li><img src='../images/popo/140_postoreEP_2.jpg' /></li><li><img src='../images/popo/140_postoreEP_3.jpg' /></li><li><img src='../images/popo/10019_vote.jpg' /></li><li><img src='../images/popo/165_2012food.jpg' /></li><li><img src='../images/popo/165_2012food_2.jpg' /></li><li><img src='../images/popo/165_2012food_3.jpg' /></li></ul>"
+    }, 
+    "flylink": {
+        "title" : "<h6>星炫科技</h6><p>網站視覺設計提案及開發，並與業務、後端人員一同進行討論及網站開發</p>", 
+        "content" : "<ul class='img_group'><li><img src='../images/flylink/luxsent_index.jpg' /></li><li><img src='../images/flylink/luxsent_index_6.jpg' /></li><li><img src='../images/flylink/luxsent_index_7.jpg' /></li><li><img src='../images/flylink/luxsent_index_8.jpg' /></li><li><img src='../images/flylink/luxsent_cis01.jpg' /></li><li><img src='../images/flylink/luxsent_cis02.jpg' /></li><li><img src='../images/flylink/inyoung99_index.jpg' /></li><li><img src='../images/flylink/esoft_index.jpg' /></li></ul>"
+    }
+}

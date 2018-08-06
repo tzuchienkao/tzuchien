@@ -1,0 +1,71 @@
+
+/* 彈出視窗模組 */
+body.modal {
+	overflow-y: hidden;
+}
+.animate {
+	animation: 0.3s linear;
+	transition: all;
+}
+.fade-in {
+	animation-name: fade-in;
+}
+.popup, .popup_btn_group {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	justify-content: center;
+}
+.popup {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+}
+.popup .popup_block {
+	width: 100%;
+	background: #fff;
+	margin: 4%;
+	padding: 20px;
+	position: relative;
+}
+.btn_fun_close {
+	float: right;
+	position: relative;
+}
+.btn_fun_close:before, .btn_fun_close:after {
+	width: 15px;
+	height: 5px;
+	background: #3835e0;
+	position: absolute;
+	top: 0;
+	right: -5px;
+	transform-origin: center center;
+	content: '';
+	display: inline-block;
+}
+.btn_fun_close:before {
+	transform: rotate(45deg)
+}
+.btn_fun_close:after {
+	transform: rotate(-45deg)
+}
+.popup_btn_group a, .popup_btn_group button, .popup_btn_group input[type="submit"] {
+    width: inherit;
+    line-height: 20px;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+}/* //彈出視窗模組 */
+
+@keyframes fade-in{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
