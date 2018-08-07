@@ -176,6 +176,7 @@ section {
 }
 .btn_fun_close:before, .btn_fun_close:after {
   background: #40c297;
+	right: -10px;
 }
 .btn_fun_close:before {
   transform: scale(1.5) rotate(45deg);
