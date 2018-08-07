@@ -177,6 +177,12 @@ section {
 .btn_fun_close:before, .btn_fun_close:after {
   background: #40c297;
 }
+.btn_fun_close:before {
+  transform: scale(1.5) rotate(45deg);
+}
+.btn_fun_close:after {
+  transform: scale(1.5) rotate(-45deg);
+}
 @media (max-width: 641px) and (min-width: 320px) {
   header {
     width: 30%;
