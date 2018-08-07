@@ -60,7 +60,7 @@
         }else {
             $('.popup .btn_close').hide();
         }
-        $('.popup_header').text(title).addClass(title_class);
+        $('.popup_header').html(title).addClass(title_class);
         $('.popup_content').html(content);
         $('.popup_btn_1').html(btn_group_1);
         $('.popup_btn_2').html(btn_group_2);
