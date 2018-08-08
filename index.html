@@ -9,11 +9,11 @@
         content="ie=edge">
   <title>Tzuchien Kao</title>
   <link rel="stylesheet"
-        href="../tzuchien/styles/reset.css">
+        href="styles/reset.css">
   <link rel="stylesheet"
-        href="../tzuchien/plugin/popup.css">
+        href="plugin/popup.css">
   <link rel="stylesheet"
-        href="../tzuchien/styles/site.css">
+        href="styles/site.css">
 </head>
 
 <body>
@@ -32,7 +32,12 @@
       </ul>
       <ul class="navbar">
         <li><router-link to="/kao/about">關於我 About</router-link></li>
-        <li><router-link to="/kao/showcase">作品 Showcase</router-link></li>
+        <li><p data-title="catalog">作品 Showcase</p>
+          <ul>
+            <li><router-link to="/kao/showcase/website">網頁 Website</router-link></li>
+            <li><router-link to="/kao/showcase/design">其他 Design</router-link></li>
+          </ul>
+        </li>
       </ul>
     </header>
     <section>
@@ -43,11 +48,11 @@
       </transition>
     </section>
   </div>
-  <script src="../tzuchien/libs/jquery.min.js"></script>
-  <script src="../tzuchien/plugin/popup.js"></script>
-  <script src="../tzuchien/libs/main.js"></script>
-  <script src="../tzuchien/libs/vue.js"></script>
-  <script src="../tzuchien/libs/vue-router.js"></script>
+  <script src="libs/jquery.min.js"></script>
+  <script src="plugin/popup.js"></script>
+  <script src="libs/main.js"></script>
+  <script src="libs/vue.js"></script>
+  <script src="libs/vue-router.js"></script>
   <script>
     (function () {
 
@@ -97,7 +102,7 @@
         `
       }
 
-      let showcase = {
+      let website = {
         template: `
         <div id="showcase">
           <ul class="list_box">
@@ -186,6 +191,14 @@
         `
       }
 
+      let design = {
+        template: `
+          <div>
+            Design
+          </div>
+        `
+      }
+
       let router = new VueRouter({
         routes: [
           {
@@ -202,8 +215,12 @@
                 component: about
               },
               {
-                path: 'showcase',
-                component: showcase
+                path: 'showcase/website',
+                component: website
+              },
+              {
+                path: 'showcase/design',
+                component: design
               },
             ]
           },
