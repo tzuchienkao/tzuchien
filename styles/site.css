@@ -203,15 +203,46 @@ section {
   transform: scale(1.5) rotate(-45deg);
 }
 @media (max-width: 641px) and (min-width: 320px) {
+  header, section {
+    width: 100%;
+  }
   header {
-    width: 30%;
+    height: auto;
+    padding-bottom: 0;
   }
   section {
-    width: 75%;
+    padding-left: 20px;
+    margin-left: 0;
+  }
+  .namecard {
+    margin-bottom: 0;
   }
   .namecard .img_box {
     width: 80px;
     height: 80px;
+  }
+  .navbar,
+  .navbar li ul {
+    display: flex;
+  }
+  .navbar {
+    text-align: center;
+  }
+  .navbar li {
+    flex: 0 0 auto;
+  }
+  .navbar li:first-child {
+    width: 30%;
+  }
+  .navbar li:nth-child(2) {
+    width: 70%;
+  }
+  .navbar [data-title] {
+    display: none;
+  }
+  .navbar [data-title] ~ ul li {
+    width: 50%;
+    line-height: inherit;
   }
   .list_box li {
     width: 50%;

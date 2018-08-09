@@ -1,5 +1,17 @@
 (function($){
+    function topbar(){
+        topH = $('header').innerHeight();
+        $('section').attr('style', '');
+        if($(window).width() <= 640){
+            $('section').css({
+                'padding-top': topH
+            })
+        } else {
+            $('section').attr('style', '');
+        }
+    }
     $(document).ready(function(){
+        topbar();
         $.ajax({
             'url' : './data/demo.json', 
             'dataType' : 'json',
@@ -55,5 +67,8 @@
                 <p>${description}</p>
             `
         }
+    });
+    $(window).resize(function(){
+        topbar();
     })
 })(jQuery)
