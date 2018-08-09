@@ -1,7 +1,7 @@
 (function($){
     $(document).ready(function(){
         $.ajax({
-            'url' : '../data/demo.json', 
+            'url' : './data/demo.json', 
             'dataType' : 'json',
             'async': false,
             success : function(content){
