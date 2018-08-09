@@ -1,26 +1,234 @@
 {
     "wlj" : {
-        "title" : "<h6>1828集團 - 王老吉涼水鋪工程部 前端工程師</h6><p>以 OOCSS 的設計模式定義網站 CSS style 規範；維護與改版公司內部官網及開發1828涼水鋪APP</p>", 
-        "content" : "<ul><li>網站開發以 tableless grid layout 為概念進行布局，透過 Emmet 及 LESS + CSS (OOCSS ) 編寫結構化的程式碼，不依賴 Framework 進行 RWD 客製化，開發時能夠處理各瀏覽器兼容性，並符合多裝置尺寸建置，使用 jQuery / CSS3 呈現網頁資訊及動態效果。</li><li>與後端以 AJAX 方法串接 json 格式資料，並遵循 RESTful API 規範，使用 Promise 物件建立非同步運作。</li><li>團隊使用 trello 設立目標，建立階段性任務，藉此可了解各部門同仁彼此的進度，一同開發完成專案；並仰賴 git 圖形化介面工具做檔案版本控制。</li></ul>"
+        "title" : "1828集團 - 王老吉涼水鋪工程部 前端工程師", 
+        "description": "以 OOCSS 的設計模式定義網站 CSS style 規範；維護與改版公司內部官網及開發1828涼水鋪APP",
+        "content" : [
+            "網站開發以 tableless grid layout 為概念進行布局，透過 Emmet 及 LESS + CSS (OOCSS ) 編寫結構化的程式碼，不依賴 Framework 進行 RWD 客製化，開發時能夠處理各瀏覽器兼容性，並符合多裝置尺寸建置，使用 jQuery / CSS3 呈現網頁資訊及動態效果。",
+            "與後端以 AJAX 方法串接 json 格式資料，並遵循 RESTful API 規範，使用 Promise 物件建立非同步運作。",
+            "團隊使用 trello 設立目標，建立階段性任務，藉此可了解各部門同仁彼此的進度，一同開發完成專案；並仰賴 git 圖形化介面工具做檔案版本控制。"
+        ],
+        "images": []
     }, 
-    "wl": {
-        "title" : "<h6>台灣角川 - 窩客島(WalkerLand)</h6><p>每月進行橫幅廣告設計、雜誌頁面設計，以及設計、開發、維護業務部門的活動網站；節日的電子報網站設計、公司內部官網的設計、開發、維護以及改版</p>", 
-        "content" : "<ul><li>網頁使用 Adobe Photoshop 製作視覺設計及自製 CSS sprite，採用 tableless grid layout 為概念布局，並以結構化的程式碼，有效增加網頁可讀性與維護性、縮短開發時程、助於 SEO。</li><li>電子報透過 Adobe photoshop 進行圖片切片，頁面布局以 table 排版，並以 inline-CSS 編寫樣式，有助於瀏覽器的容錯率；電子報網站開發使用 jQuery / CSS3 呈現網頁資訊及動態效果。</li></ul><ul class='img_group'><li><img src='../../tzuchien/images/wl/event_esun_000.jpg' /></li><li><img src='../../tzuchien/images/wl/edm_201712.jpg' /></li><li><img src='../../tzuchien/images/wl/sitewl_article_002.jpg' /></li><li><img src='../../tzuchien/images/wl/sitewl_article_003.jpg' /></li></ul>"
-        }, 
-    "yd": {
-        "title" : "<h6>毅達創意</h6><p>設計該專案的網頁過場動畫，與業務、設計、後端人員一同進行討論及網站開發</p>", 
-        "content" : "<ul><li>將設計的PSD檔使用 Adobe Photoshop 切片，並設計網頁過場動畫，開發使用 Bootstrap 呈現網頁資訊及動態效果，並運用 jQuery Plugin 製作一頁式網站。</li></ul><ul class='img_group'><li><img src='../../tzuchien/images/yd/001-ydReading.jpg' /></li><li><img src='../../tzuchien/images/yd/002-ydBus.jpg' /></li><li><img src='../../tzuchien/images/yd/003-ydShinny.jpg' /></li><li><img src='../../tzuchien/images/yd/004-ydTstar.jpg' /></li><li><img src='../../tzuchien/images/yd/001-ydReading_m.jpg' /><li><img src='../../tzuchien/images/yd/002-ydBus_m.jpg' /></li><li><img src='../../tzuchien/images/yd/003-ydShinny_m.jpg' /></li><li><img src='../../tzuchien/images/yd/004-ydTstar_m.jpg' /></li></ul>"
-        }, 
-    "yw": {
-        "title" : "<h6>嚮網科技（優仕網／愛逛街）</h6><p>開發、維護、改版公司內部官網，每月進行橫幅廣告設計及業務部門的活動網站設計、開發、維護</p>", 
-        "content" : "<ul><li>使用 Adobe Photoshop 製作視覺設計，頁面布局以 tableless grid layout 為概念排版，不依賴 Framework 進行 RWD 客製化，開發符合各裝置尺寸的網站建置，並增加網頁可讀性與維護性，亦能縮短開發時程，更助於網頁 SEO。</li><li>團隊使用 google 雲端文件設立目標，建立階段性任務，藉由甘特圖可了解該專案相關同仁的進度；檔案藉由 SVN 圖形化介面工具版本控制。</li></ul><ul class='img_group'><li><img src='../../tzuchien/images/yw/iguang_vedio.gif' /></li><li><img src='../../tzuchien/images/yw/iguang_0_2015.jpg' /></li><li><img src='../../tzuchien/images/yw/iguang_1_2015.jpg' /></li><li><img src='../../tzuchien/images/yw/iguang_2_2015.jpg' /></li><li><img src='../../tzuchien/images/yw/iguang_4_2015.jpg' /></li><li><img src='../../tzuchien/images/yw/iguang_5_2015.jpg' /></li><li><img src='../../tzuchien/images/yw/iguang_6_2015.jpg' /></li><li><img src='../../tzuchien/images/yw/flog_logo.jpg' /></li><li><img src='../../tzuchien/images/yw/event_xmas.jpg' /></li><li><img src='../../tzuchien/images/yw/event_pizzahut_4.jpg' /></li><li><img src='../../tzuchien/images/yw/event_taobao_2.jpg' /></li><li><img src='../../tzuchien/images/yw/event_roodo.jpg' /></li><li><img src='../../tzuchien/images/yw/event_k8_m_4.jpg' /></li><li><img src='../../tzuchien/images/yw/event_newyear_3.jpg' /></li><li><img src='../../tzuchien/images/yw/event_taobao_m.jpg' /></li><li></li></ul>"
+    "wl_01" : {
+        "title" : "台灣角川（窩客島 WalkerLand）", 
+        "description": "每月進行橫幅廣告設計、雜誌頁面設計，以及設計、開發、維護業務部門的活動網站；節日的電子報網站設計、公司內部官網的設計、開發、維護以及改版",
+        "content" : [
+            "網頁使用 Adobe Photoshop 製作視覺設計及自製 CSS sprite，採用 tableless grid layout 為概念布局，並以結構化的程式碼，有效增加網頁可讀性與維護性、縮短開發時程、助於 SEO。", 
+            "電子報透過 Adobe photoshop 進行圖片切片，頁面布局以 table 排版，並以 inline-CSS 編寫樣式，有助於瀏覽器的容錯率；電子報網站開發使用 jQuery / CSS3 呈現網頁資訊及動態效果。"
+        ],
+        "images": [
+            "images/wl/sitewl_article_001.jpg", 
+            "images/wl/sitewl_article_002.jpg", 
+            "images/wl/sitewl_article_003.jpg",
+            "",
+            "images/wl/sitewl_article_m_001.jpg",
+            "images/wl/sitewl_article_m_003.jpg",
+            "images/wl/sitewl_try_005.jpg",
+            ""
+        ]
     }, 
-    "popo": {
-        "title" : "<h6>POPO（城邦控股集團）</h6><p>開發、改版公司內部官網，每月進行橫幅廣告設計、電子書封設計及活動網站設計、開發</p>", 
-        "content" : "<ul><li>使用 Adobe Photoshop 製作視覺設計，頁面布局以 tableless grid layout 為概念排版，不依賴 Framework 進行開發，開發時能夠處理各瀏覽器兼容性，並符合多裝置尺寸建置，並增加網頁可讀性與維護性，亦能縮短開發時程。</li></ul><ul class='img_group'><li><img src='../../tzuchien/images/popo/qidian_0_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_1_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_2_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_3_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_4_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_5_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_6_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_7_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_8_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_9_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_10_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_11_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/qidian_12_2014.jpg' /></li><li><img src='../../tzuchien/images/popo/140_postoreEP.jpg' /></li><li><img src='../../tzuchien/images/popo/140_postoreEP_2.jpg' /></li><li><img src='../../tzuchien/images/popo/140_postoreEP_3.jpg' /></li><li><img src='../../tzuchien/images/popo/10019_vote.jpg' /></li><li><img src='../../tzuchien/images/popo/165_2012food.jpg' /></li><li><img src='../../tzuchien/images/popo/165_2012food_2.jpg' /></li><li><img src='../../tzuchien/images/popo/165_2012food_3.jpg' /></li></ul>"
+    "wl_02" : {
+        "title" : "台灣角川（窩客島 WalkerLand）", 
+        "description": "每月進行橫幅廣告設計、雜誌頁面設計，以及設計、開發、維護業務部門的活動網站；節日的電子報網站設計、公司內部官網的設計、開發、維護以及改版",
+        "content" : [
+            "網頁使用 Adobe Photoshop 製作視覺設計及自製 CSS sprite，採用 tableless grid layout 為概念布局，並以結構化的程式碼，有效增加網頁可讀性與維護性、縮短開發時程、助於 SEO。", 
+            "電子報透過 Adobe photoshop 進行圖片切片，頁面布局以 table 排版，並以 inline-CSS 編寫樣式，有助於瀏覽器的容錯率；電子報網站開發使用 jQuery / CSS3 呈現網頁資訊及動態效果。"
+        ],
+        "images": [
+            "images/wl/event_esun_000.jpg",
+            "images/wl/event_esun_001.jpg",
+            "images/wl/event_esun_004.jpg", 
+            "images/wl/event_xmas.jpg",
+            "images/wl/edm_20171002.jpg", 
+            "images/wl/edmCo_201707_00.jpg", 
+            "images/wl/edmCo_201707_01.jpg",
+            ""
+        ]
     }, 
-    "flylink": {
-        "title" : "<h6>星炫科技</h6><p>網站視覺設計提案及開發，並與業務、後端人員一同進行討論及網站開發</p>", 
-        "content" : "<ul class='img_group'><li><img src='../../tzuchien/images/flylink/luxsent_index.jpg' /></li><li><img src='../../tzuchien/images/flylink/luxsent_index_6.jpg' /></li><li><img src='../../tzuchien/images/flylink/luxsent_index_7.jpg' /></li><li><img src='../../tzuchien/images/flylink/luxsent_index_8.jpg' /></li><li><img src='../../tzuchien/images/flylink/luxsent_cis01.jpg' /></li><li><img src='../../tzuchien/images/flylink/luxsent_cis02.jpg' /></li><li><img src='../../tzuchien/images/flylink/inyoung99_index.jpg' /></li><li><img src='../../tzuchien/images/flylink/esoft_index.jpg' /></li></ul>"
+    "yd" : {
+        "title" : "毅達創意", 
+        "description": "設計該專案的網頁過場動畫，與業務、設計、後端人員一同進行討論及網站開發",
+        "content" : [],
+        "images": [
+            "images/yd/001-ydReading.jpg",
+            "images/yd/002-ydBus.jpg",
+            "images/yd/003-ydShinny.jpg", 
+            "images/yd/004-ydTstar.jpg",
+            "images/yd/001-ydReading_m.jpg", 
+            "images/yd/002-ydBus_m.jpg", 
+            "images/yd/003-ydShinny_m.jpg",
+            "images/yd/004-ydTstar_m.jpg"
+        ]
+    }, 
+    "yw_01" : {
+        "title" : "嚮網科技（優仕網／愛逛街）", 
+        "description": "開發、維護、改版公司內部官網，每月進行橫幅廣告設計及業務部門的活動網站設計、開發、維護",
+        "content" : [
+            "使用 Adobe Photoshop 製作視覺設計，頁面布局以 tableless grid layout 為概念排版，不依賴 Framework 進行 RWD 客製化，開發符合各裝置尺寸的網站建置，並增加網頁可讀性與維護性，亦能縮短開發時程，更助於網頁 SEO。",
+            "團隊使用 google 雲端文件設立目標，建立階段性任務，藉由甘特圖可了解該專案相關同仁的進度；檔案藉由 SVN 圖形化介面工具版本控制。"
+        ],
+        "images": [
+            "images/yw/iguang_vedio.gif",
+            "images/yw/iguang_0_2015.jpg",
+            "images/yw/iguang_1_2015.jpg", 
+            "images/yw/iguang_2_2015.jpg",
+            "images/yw/iguang_3_2015.jpg",
+            "images/yw/iguang_4_2015.jpg", 
+            "images/yw/iguang_5_2015.jpg",
+            "images/yw/iguang_6_2015.jpg", 
+            "images/yw/flog_logo.jpg"
+        ]
+    }, 
+    "yw_02" : {
+        "title" : "毅達創意", 
+        "description": "設計該專案的網頁過場動畫，與業務、設計、後端人員一同進行討論及網站開發",
+        "content" : [
+            "使用 Adobe Photoshop 製作視覺設計，頁面布局以 tableless grid layout 為概念排版，不依賴 Framework 進行 RWD 客製化，開發符合各裝置尺寸的網站建置，並增加網頁可讀性與維護性，亦能縮短開發時程，更助於網頁 SEO。",
+            "團隊使用 google 雲端文件設立目標，建立階段性任務，藉由甘特圖可了解該專案相關同仁的進度；檔案藉由 SVN 圖形化介面工具版本控制。"
+        ],
+        "images": [
+            "images/yw/event_pizzahut_4.jpg",
+            "images/yw/event_taobao_2.jpg",
+            "images/yw/event_roodo.jpg", 
+            "images/yw/event_xmas.jpg",
+            "images/yw/edm_pizzahut.jpg", 
+            "images/yw/event_taobao_m.jpg", 
+            "images/yw/event_k8_m_4.jpg",
+            "images/yw/event_newyear_3.jpg"
+        ]
+    }, 
+    "popo_01" : {
+        "title" : "城邦控股集團（POPO）", 
+        "description": "開發、改版公司內部官網，每月進行橫幅廣告設計、電子書封設計及活動網站設計、開發",
+        "content" : [
+            "使用 Adobe Photoshop 製作視覺設計，頁面布局以 tableless grid layout 為概念排版，不依賴 Framework 進行開發，開發時能夠處理各瀏覽器兼容性，並符合多裝置尺寸建置，並增加網頁可讀性與維護性，亦能縮短開發時程。"
+        ],
+        "images": [
+            "images/popo/qidian_0_2014.jpg",
+            "images/popo/qidian_1_2014.jpg",
+            "images/popo/qidian_2_2014.jpg",
+            "images/popo/qidian_3_2014.jpg",
+            "images/popo/qidian_4_2014.jpg",
+            "images/popo/qidian_5_2014.jpg",
+            "images/popo/qidian_6_2014.jpg",
+            "images/popo/qidian_7_2014.jpg",
+            "images/popo/qidian_8_2014.jpg",
+            "images/popo/qidian_9_2014.jpg",
+            "images/popo/qidian_11_2014.jpg",
+            "images/popo/qidian_12_2014.jpg"
+        ]
+    }, 
+    "popo_02" : {
+        "title" : "城邦控股集團（POPO）", 
+        "description": "開發、改版公司內部官網，每月進行橫幅廣告設計、電子書封設計及活動網站設計、開發",
+        "content" : [
+            "使用 Adobe Photoshop 製作視覺設計，頁面布局以 tableless grid layout 為概念排版，不依賴 Framework 進行開發，開發時能夠處理各瀏覽器兼容性，並符合多裝置尺寸建置，並增加網頁可讀性與維護性，亦能縮短開發時程。"
+        ],
+        "images": [
+            "images/popo/140_postoreEP.jpg",
+            "images/popo/10019_vote.jpg",
+            "images/popo/165_2012food.jpg",
+            "images/popo/143_2012maystar.jpg",
+            "images/popo/140_postoreEP_2.jpg",
+            "images/popo/10019_vote_2.jpg",
+            "images/popo/165_2012food_2.jpg",
+            "images/popo/143_2012maystar_2.jpg",
+            "images/popo/140_postoreEP_3.jpg",
+            "images/popo/10019_vote_3.jpg",
+            "images/popo/165_2012food_3.jpg",
+            "images/popo/143_2012maystar_3.jpg"
+        ]
+    }, 
+    "flylink" : {
+        "title" : "星炫科技", 
+        "description": "網站視覺設計提案及開發，並與業務、後端人員一同進行討論及網站開發",
+        "content" : [],
+        "images": [
+            "images/flylink/luxsent_index.jpg",
+            "images/flylink/luxsent_index_6.jpg",
+            "images/flylink/luxsent_index_7.jpg",
+            "images/flylink/luxsent_index_8.jpg",
+            "images/flylink/inyoung99_index.jpg",
+            "images/flylink/esoft_index.jpg",
+            "images/flylink/jiatong_index.jpg",
+            "images/flylink/kronho_index.jpg"
+        ]
+    }, 
+    "banner" : {
+        "title" : "廣告橫幅", 
+        "description": "",
+        "content" : [],
+        "images": [
+            "images/wl/wlStar_201710_850x450.jpg",
+            "images/wl/wlStar_201709_850x450.jpg",
+            "images/wl/wlStar_201708_850x450.jpg",
+            "images/wl/sub_201801_300x250.jpg",
+            "images/wl/wlStar_201710_300x80.jpg",
+            "images/wl/wlStar_201709_300x80.jpg",
+            "images/wl/wlStar_201708_300x80.jpg",
+            "images/wl/sub_201801_320x100.jpg",
+            "images/wl/sub_201706_780x390.jpg",
+            "images/wl/sub_201707_01_780x390.jpg",
+            "images/wl/tw_201708_780x390.jpg",
+            "images/wl/tw_201801_780x390.jpg",
+            "images/wl/wlTen_201707_850x450.jpg",
+            "images/wl/wlTen_201709_850x450.jpg",
+            "images/wl/wlTen_201712_850x450.jpg",
+            "images/yw/banner_xmas.jpg",
+            "images/yw/banner_newyear_350x200.jpg",
+            "images/yw/banner_pizzahut970x480.jpg",
+            "images/yw/banner_tkec_970x480.jpg",
+            "",
+            "images/yw/banner_newyear_728x90.gif",
+            "images/yw/banner_pizzahut970x225.jpg",
+            "images/yw/banner_tkec_970x225.jpg",
+            ""
+        ]
+    }, 
+    "cis" : {
+        "title" : "識別系統",
+        "description": "",
+        "content" : [],
+        "images": [
+            "images/flylink/luxsent_cis01.jpg",
+            "images/flylink/luxsent_cis02.jpg",
+            "images/flylink/luxsent_cis03.jpg",
+            "images/case/shinphoto_logo_2016.jpg",
+            "images/case/shinphoto_logo_black_2016.jpg",
+            "images/case/shinphoto_logo_whiteH_2016.jpg",
+            "images/case/shinphoto_logo_blackH_2016.jpg",
+            "images/case/shinphoto_logo_white_2016.jpg",
+            "images/case/breakfast_logo_2016.jpg",
+            "images/case/breakfast_namecard_front_2016.jpg",
+            "images/case/breakfast_namecard_back_2016.jpg",
+            "",
+            "images/sure/surejuice_namecard.jpg",
+            "images/sure/surejuice_car.jpg",
+            "images/sure/surejuice_image_1.jpg",
+            "images/sure/surejuice_image.jpg"
+        ]
+    }, 
+    "print" : {
+        "title" : "印刷物",
+        "description": "",
+        "content" : [],
+        "images": [
+            "images/wl/maz_jw201802_003.jpg",
+            "images/wl/wlStar_201710_dm.jpg",
+            "images/wl/wlStar_201709_dm.jpg",
+            "images/wl/wlStar_201708_dm.jpg",
+            "images/flylink/book_0_2014.jpg",
+            "images/flylink/book_01.jpg",
+            "images/flylink/book_01_2014.jpg",
+            "images/flylink/book_02_2014.jpg",
+            "images/flylink/book_03_2014.jpg",
+            "images/flylink/book_03.jpg",
+            "images/flylink/instantc_dm.jpg",
+            "images/flylink/kronho_poster.jpg",
+            "images/flylink/esoft_NP12P.jpg",
+            "images/flylink/esoft_NP13P.jpg",
+            "images/flylink/inyoung99_dm01.jpg",
+            "images/flylink/inyoung99_dm02.jpg"
+        ]
     }
 }

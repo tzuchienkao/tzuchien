@@ -9,11 +9,11 @@
         content="ie=edge">
   <title>Tzuchien Kao</title>
   <link rel="stylesheet"
-        href="../tzuchien/styles/reset.css">
+        href="styles/reset.css">
   <link rel="stylesheet"
-        href="../tzuchien/plugin/popup.css">
+        href="plugin/popup.css">
   <link rel="stylesheet"
-        href="../tzuchien/styles/site.css">
+        href="styles/site.css">
 </head>
 
 <body>
@@ -48,11 +48,11 @@
       </transition>
     </section>
   </div>
-  <script src="../tzuchien/libs/jquery.min.js"></script>
-  <script src="../tzuchien/plugin/popup.js"></script>
-  <script src="../tzuchien/libs/main.js"></script>
-  <script src="../tzuchien/libs/vue.js"></script>
-  <script src="../tzuchien/libs/vue-router.js"></script>
+  <script src="libs/jquery.min.js"></script>
+  <script src="plugin/popup.js"></script>
+  <script src="libs/main.js"></script>
+  <script src="libs/vue.js"></script>
+  <script src="libs/vue-router.js"></script>
   <script>
     (function () {
 
@@ -103,7 +103,7 @@
 
       let website = {
         template: `
-        <div id="showcase">
+        <div id="website">
           <ul class="list_box">
             <li>
               <a href="javascript:void(0)" data-demo="wlj">
@@ -116,7 +116,17 @@
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)" data-demo="wl">
+              <a href="javascript:void(0)" data-demo="wl_01">
+                <dl>
+                  <dt><img src="images/smallImg/wl-008Site.jpg" alt="" /></dt>
+                  <dd>
+                    <h6>窩客島</h6>
+                  </dd>
+                </dl>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" data-demo="wl_02">
                 <dl>
                   <dt><img src="images/smallImg/wl-009Event_esun.jpg" alt="" /></dt>
                   <dd>
@@ -136,7 +146,7 @@
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)" data-demo="yw">
+              <a href="javascript:void(0)" data-demo="yw_01">
                 <dl>
                   <dt><img src="images/smallImg/ig-001Site.jpg" alt="" /></dt>
                   <dd>
@@ -146,7 +156,7 @@
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)" data-demo="yw">
+              <a href="javascript:void(0)" data-demo="yw_02">
                 <dl>
                   <dt><img src="images/smallImg/ig-002EventTaobao.jpg" alt="" /></dt>
                   <dd>
@@ -156,7 +166,7 @@
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)" data-demo="popo">
+              <a href="javascript:void(0)" data-demo="popo_01">
                 <dl>
                   <dt><img src="images/smallImg/popo-001Site.jpg" alt="" /></dt>
                   <dd>
@@ -166,7 +176,7 @@
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)" data-demo="popo">
+              <a href="javascript:void(0)" data-demo="popo_02">
                 <dl>
                   <dt><img src="images/smallImg/popo-002EventPostore.jpg" alt="" /></dt>
                   <dd>
@@ -192,8 +202,39 @@
 
       let design = {
         template: `
-          <div>
-            Design
+          <div id="design">
+            <ul class="list_box">
+              <li>
+                <a href="javascript:void(0)" data-demo="banner">
+                  <dl>
+                    <dt><img src="images/smallImg/wl-001Star.jpg" alt="" /></dt>
+                    <dd>
+                      <h6>廣告橫幅</h6>
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" data-demo="cis">
+                  <dl>
+                    <dt><img src="images/smallImg/fl-001SiteLuxsent.jpg" alt="" /></dt>
+                    <dd>
+                      <h6>識別系統</h6>
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" data-demo="print">
+                  <dl>
+                    <dt><img src="images/smallImg/wl-011Maz_jw.jpg" alt="" /></dt>
+                    <dd>
+                      <h6>印刷物</h6>
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+            </ul>
           </div>
         `
       }

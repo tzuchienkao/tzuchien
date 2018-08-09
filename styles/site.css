@@ -189,6 +189,10 @@ section {
 .img_group li img {
   width: 100%;
 }
+.btn_fun_close {
+  top: -15px;
+  right: -15px;
+}
 .btn_fun_close:before, .btn_fun_close:after {
   background: #40c297;
 }
