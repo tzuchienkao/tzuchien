@@ -1,4 +1,20 @@
 {
+    "bb" : {
+        "title" : "PressLogic - 台灣女生日常技術部 前端工程師", 
+        "description": "以敏捷式開發自有社群平台  BeautyBee  (https://www.beautybee.com)",
+        "content" : [
+            "使用  Element-ui  套件，前期開發使用  Vue.js，使用  Vuex  跨組件管理，並搭配  Laravel  建構  SPA  專案。後期為達到  SSR  之目的，產品全面使用  Nuxt.js，棄用前期開發使用的  jQuery，完全使用  Javascript  (ES5  /  ES6)。",
+            "串接第三方  API，如  google,  facebook。",
+            "前端團隊使用  CDD  組件開發法，透過  Storybook  達到元件統一化，且不重複開發。",
+            "與後端串接  json  格式資料，採用  Axios  方法並遵循  RESTful  API  規範，使用  Promise  物件建立非同步運作。",
+            "遵循  ESLint  Programming  Style  團隊規則，建立易於維護的程式碼。",
+            "仰賴  git  (command  line  /  GUI)  做檔案版本控制。",
+            "悉知  CI  /  CD  流程，透過  GitLab,  Jira,  Jenkins  完成整合自動化發佈。",
+            "與  APP  團隊合作，透過  schema  協議達到行動裝置網頁打開  APP；亦支援  webview  頁面，在短時間內將複雜的頁面內容產出。",
+            "與  UI  designer  透過  zeplin  溝通，將統一的設計規範統整為  CSS  共用樣式，圖示轉出  svg，避免失真及減少檔案大小。"
+        ],
+        "images": []
+    }, 
     "wlj" : {
         "title" : "1828集團 - 王老吉涼水鋪工程部 前端工程師", 
         "description": "以 OOCSS 的設計模式定義網站 CSS style 規範；維護與改版公司內部官網及開發1828涼水鋪APP",
