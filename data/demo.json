@@ -64,7 +64,17 @@
             "與後端以 AJAX 方法串接 json 格式資料，並遵循 RESTful API 規範，使用 Promise 物件建立非同步運作。",
             "團隊使用 trello 設立目標，建立階段性任務，藉此可了解各部門同仁彼此的進度，一同開發完成專案；並仰賴 git 圖形化介面工具做檔案版本控制。"
         ],
-        "images": []
+        "images": [
+            "images/wlj/wlj_app_1.jpg",
+            "images/wlj/wlj_app_2.jpg",
+            "images/wlj/wlj_app_3.jpg",
+            "images/wlj/wlj_app_4.jpg",
+            "images/wlj/wlj_app_5.jpg",
+            "images/wlj/wlj_app_6.jpg",
+            "images/wlj/wlj_app_7.jpg",
+            "images/wlj/wlj_app_8.jpg",
+            "images/wlj/wlj_app_9.jpg"
+        ]
     }, 
     "wl_01" : {
         "title" : "台灣角川（窩客島 WalkerLand）", 
