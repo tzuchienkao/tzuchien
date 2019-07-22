@@ -112,6 +112,10 @@ section {
   list-style: disc;
   margin-left: 20px;
 }
+#about h6 {
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
 #showcase {
   width: 100%;
 }
