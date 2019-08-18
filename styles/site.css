@@ -259,3 +259,8 @@ section {
     flex: 0 0 50%;
   }
 }
+@media print {
+  body {
+    color: #333;
+  }
+}

@@ -11,7 +11,8 @@
             "仰賴  git  (command  line  /  GUI)  做檔案版本控制。",
             "悉知  CI  /  CD  流程，透過  GitLab,  Jira,  Jenkins  完成整合自動化發佈。",
             "與  APP  團隊合作，透過  schema  協議達到行動裝置網頁打開  APP；亦支援  webview  頁面，在短時間內將複雜的頁面內容產出。",
-            "與  UI  designer  透過  zeplin  溝通，將統一的設計規範統整為  CSS  共用樣式，圖示轉出  svg，避免失真及減少檔案大小。"
+            "與  UI  designer  透過  zeplin  溝通，將統一的設計規範統整為  CSS  共用樣式，圖示轉出  svg，避免失真及減少檔案大小。",
+            "透過 Jira 與 PM, QA 建立階段性任務，藉此可了解各部門同仁彼此的進度，一同開發完成專案。"
         ],
         "images": [
             "images/bb/bb_0.jpg",
