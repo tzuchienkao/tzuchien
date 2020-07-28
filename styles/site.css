@@ -119,6 +119,9 @@ section {
   line-height: 1.5;
   padding-bottom: 10px;
 }
+#about .experience-description {
+  padding-bottom: 10px;
+}
 #showcase {
   width: 100%;
 }
