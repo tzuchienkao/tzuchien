@@ -5,6 +5,9 @@ html {
   color: #fff;
   background-color: #40c297;
 }
+a, a:hover, a:active, a:visited {
+  color: #fff;
+}
 [v-cloak] {
   display: none;
 }
